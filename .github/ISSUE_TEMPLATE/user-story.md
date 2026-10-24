@@ -1,3 +1,12 @@
+---
+name: User Story
+about: Template for creating Agile user stories
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 **As a** [role]
 **I need** [function]
 **So that** [benefit]
@@ -6,6 +15,7 @@
 * [document what you know]
 
 ### Acceptance Criteria
+
 ```gherkin
 Given [some context]
 When [certain action is taken]

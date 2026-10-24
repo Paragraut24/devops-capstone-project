@@ -59,7 +59,8 @@ class PersistentBase:
         logger.info("Initializing database")
         cls.app = app
         # This is where we initialize SQLAlchemy from the Flask app
-        db.init_app(app)
+        if "sqlalchemy" not in app.extensions:
+            db.init_app(app)
         app.app_context().push()
         db.create_all()  # make our sqlalchemy tables
 

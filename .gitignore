@@ -110,3 +110,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+AGENT_PROMPT.md
+SUBMISSION_ARTIFACTS.md
+generate_submissions.sh
+.pytest_cache/
+pytest-cache-files-*/
