@@ -1,4 +1,4 @@
-# devops-capstone-project
+# DevOps Capstone
 
 [![Build Status](https://github.com/Paragraut24/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/Paragraut24/devops-capstone-project/actions/workflows/ci-build.yaml)
 
